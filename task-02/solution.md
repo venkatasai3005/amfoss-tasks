@@ -17,3 +17,10 @@
 * the snap shot of pdf is:
 
 ![Screenshot from 2022-11-12 14-56-55](https://user-images.githubusercontent.com/117254931/201467898-8064ff63-a617-4847-b7eb-1258a2f35ed5.png)
+
+* to push the all work to repository i used-
+* "git remote add origin <REMOTE_URL>.
+* "git remote -v.
+* "git push origin main"
+* 
+* i used these commands in my whole process
