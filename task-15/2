@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main(){
+    long  t;
+    scanf("%ld",&t);
+    while(t--)
+    {
+        long  s,p=1,q=1,r,g=0;
+        scanf("%ld",&s);
+        while(p+q<=s)
+        {
+            r=p;
+            p=q;
+            q=p+r;
+            if(q%2==0)
+            {
+            g=g+q;
+            }
+        }
+        printf("%ld\n",g);
+    }
+return 0;
+}
